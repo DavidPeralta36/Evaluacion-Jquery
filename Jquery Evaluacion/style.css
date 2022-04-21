@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(0, 87, 0);
+}
+
+img{
+    height: 300px;
+    width: 200px;
+    position: relative;
+    left: 140px;
+    margin-left: -140px;
+}
+
+#jugador, #computadora{
+    min-height: 400px;
+}
+
+#mensajeGanador{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 60%;
+    height: 300px;
+    
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    line-height: 300px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 17);
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.hidden{
+    display: none;
+}
+
+.win{
+    background-color: green;
+}
+
+.lose{
+    background-color: red;
+}
